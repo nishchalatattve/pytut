@@ -26,3 +26,12 @@ type(f)
 f = (9,)
 type(f)
 # %%
+g = [1, '1', 1.0, True]
+g
+# %%
+a = {"hi": 99, "pussy": 88, "adiyogi": 128}
+print(a.get("hii", '?'))
+# %%
+now = datetime.now()
+b = {"bhairavi": now.day == 11}
+b.get("bhairavi", '?')
