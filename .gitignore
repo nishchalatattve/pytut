@@ -1,2 +1,6 @@
+# Python
 .tut_env
 __pycache__
+
+# Mac
+.DS_Store
