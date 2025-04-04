@@ -12,3 +12,6 @@ git lfs track "*.jpeg"
 git lfs track "*.png"
 git lfs track "*.otf"
 git lfs track "*.ttf"
+
+# MacOS
+echo $PATH | sed 's/:/\n  - /g' | sed '1s/^/PATH:\n  - /'
